@@ -15,8 +15,10 @@
         android:layout_marginBottom="25dp"
         android:text="@string/home"
         android:textAlignment="center"
+        android:textColor="#00B8D4"
         android:textSize="34sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/etusernameH"
@@ -52,4 +54,11 @@
         android:layout_height="wrap_content"
         android:text="@string/register"
         tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/profilepic1"
+        android:contentDescription="@string/todo" />
 </LinearLayout>

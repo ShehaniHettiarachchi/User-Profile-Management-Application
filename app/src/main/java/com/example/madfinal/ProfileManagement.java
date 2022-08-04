@@ -13,7 +13,7 @@ public class ProfileManagement extends AppCompatActivity {
     EditText username,dob,password;
     Button search,edit,delete;
     RadioButton male,female;
-
+    //comment
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +23,7 @@ public class ProfileManagement extends AppCompatActivity {
 
 
 
-        //comment
+
       search.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View v) {
