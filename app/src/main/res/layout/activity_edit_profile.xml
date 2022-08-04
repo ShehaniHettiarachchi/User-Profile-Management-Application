@@ -15,8 +15,10 @@
         android:layout_marginBottom="25dp"
         android:text="@string/editprofile"
         android:textAlignment="center"
+        android:textColor="#00B8D4"
         android:textSize="34sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -134,6 +136,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/profilepic3"
+            tools:ignore="ImageContrastCheck"
+            android:contentDescription="@string/todo2" />
     </FrameLayout>
 
 </LinearLayout>
