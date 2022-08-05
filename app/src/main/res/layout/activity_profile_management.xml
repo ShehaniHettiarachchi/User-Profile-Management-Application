@@ -73,6 +73,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/female" />
+
+        <Button
+            android:id="@+id/btnaddPM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnaddPM"
+            tools:ignore="TextContrastCheck" />
     </RadioGroup>
 
     <Button

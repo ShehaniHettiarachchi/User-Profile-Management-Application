@@ -1,4 +1,4 @@
-package Database;
+package com.example.madfinal.Database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -19,7 +19,10 @@ public class DBHandler extends SQLiteOpenHelper {
         public DBHandler(Context context) {
             super(context, DATABASE_NAME, null, DATABASE_VERSION);
         }
-        public void onCreate(SQLiteDatabase db) {
+
+
+
+    public void onCreate(SQLiteDatabase db) {
             db.execSQL(SQL_CREATE_ENTRIES);
         }
         public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
