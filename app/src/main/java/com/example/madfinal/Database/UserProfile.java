@@ -1,4 +1,4 @@
-package Database;
+package com.example.madfinal.Database;
 
 import android.provider.BaseColumns;
 

@@ -18,4 +18,5 @@
     <string name="todo">TODO</string>
     <string name="todo1">TODO</string>
     <string name="todo2">TODO</string>
+    <string name="btnaddPM">Add</string>
 </resources>
